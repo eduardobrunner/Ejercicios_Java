@@ -7,9 +7,12 @@ public class contarVocales {
 		int cont=0;
 		int totalVocales=0;
 		Scanner sc = new Scanner(System.in);
-		//System.out.println("Ingrese un texto: ");
-		String texto = "Hola";
+		String texto;
 		int[] cantVocales = new int[5];
+		
+		
+		System.out.println("Ingrese un texto: ");
+		texto = sc.nextLine();
 		System.out.println(texto.indexOf("a"));
 
 		while (cont < texto.length()) {
